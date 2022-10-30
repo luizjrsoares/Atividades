@@ -1,0 +1,216 @@
+body{
+    background-color: black;
+}
+#head{
+  position: relative;
+  height: 50vh;
+}
+#p1{
+  color: rgb(141, 135, 135);
+  margin: 0px;
+  font-family: cursive;
+  font-size: 1.5vw;
+  margin: 2vw 0 0 12vw;
+}
+#art1sec1{
+  background-color: rgb(141, 135, 135);
+  display: inline-block;
+  width: 46.7vw;
+  text-align: center;
+}
+#art2sec1{
+  background-color: rgb(141, 135, 135);
+  display: inline-block;
+  width: 46.7vw;
+  text-align: center;
+}
+#se{
+  font-size: 0;
+}
+.hart{
+  padding: 3vh;
+  text-align: center;
+  font-family: cursive;
+  font-size: 1.5vw;
+  display: inline-block;
+  border: none;
+}
+.psec1{
+  padding: 0 1.5vw 1.5vw 1.5vw;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: cursive;
+}
+#psec2{
+  margin: 0 3vw 3vw 3vw;
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: cursive;
+}
+#psec3{
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: cursive;
+}
+#p2sec3{
+  text-align: center;
+  font-size: 1.5vw;
+  font-family: cursive;
+  color: white;
+}
+#mais {
+  display: none;
+}
+button{
+  border: none;
+  padding: 1.5vw;
+  text-decoration: none;
+  cursor: pointer;
+  transition: backgorund.3s;
+  border-radius: 5px;
+  font-size: 1.5vw;
+  outline: none;
+  background-color: rgb(141, 135, 135);
+  color: black;
+  margin: 2vw 0 0 20vw;
+  font-family: cursive;
+}
+button:active{
+  background-color: black;
+  color: rgb(141, 135, 135);
+}
+button:hover{
+  background-color: rgb(27, 167, 62);
+}
+#hr1{
+  margin: 15vw 46.5vw 0 2vw;
+  color: rgb(141, 135, 135);
+}
+h1{
+  color: rgb(141, 135, 135);
+  position: absolute;
+  font-family: cursive;
+  font-size: 5vw;
+  border-radius: 2%;
+  border: 5px double rgb(141, 135, 135);
+  letter-spacing: 5px;  
+  margin: 5vw 0 0 2vw; 
+}
+h2{
+  font-family: cursive;
+  font-size: 2.5vw;
+  border: 5px double black;
+  padding: 2vw;
+}
+h3{
+  font-family: cursive;
+  font-size: 2vw;
+  border: 5px double black;
+}
+#hsec3{
+  color: white;
+  font-family: cursive;
+  font-size: 2.5vw;
+  border: 5px double white;
+
+}
+#header1{
+  background-color: rgb(141, 135, 135);
+  text-align: center;
+}
+#header1>h2{
+  margin: 0;
+}
+#sec2{
+  background-color: rgb(141, 135, 135);
+  text-align: center;
+}
+#sec1{
+  background-color: black;
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+#sec3{
+  background-color: rgb(27, 167, 62);
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+}
+.art2{
+  background-color: rgb(27, 167, 62);
+  display: inline-block;
+  margin: 3vw 0 0 0.75vw;
+  width: 30vw;
+  height: auto;
+  border-radius: 20% 20% 0 0;
+}
+#art3{
+  background-color: rgb(27, 167, 62);
+  display: inline-block;
+  text-align: center;
+  width: 46vw;
+  height: auto;
+}
+#art4{
+  background-color: black;
+  display: inline-block;
+  text-align: center;
+  width: 46vw;
+  height: auto;
+  margin: 2vw;
+}
+a{
+  
+  font-family: cursive;
+  font-size: 1.8vw;
+  background-color: black;
+  color: rgb(27, 167, 62);
+}
+a:hover{
+  color: black;
+  background-color: rgb(27, 167, 62);
+}
+#spanf{
+  color: rgb(27, 167, 62);
+}
+footer{
+  text-align: center;
+  display: inline-block;
+}
+.hfooter{
+  color: white;
+  font-family: cursive;
+  font-size: 1vw;
+}
+.artf{
+  text-align: center;
+  display: inline-block;
+  margin: 0;
+  width: 48vw;
+}
+.imgart2{
+  width: 30vw;
+  height: 30vh;
+  border-radius: 20% 20% 0 0;
+}
+#imgin{
+    width: 100%;
+    position: absolute;
+}  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    #imgin {width: 100%;}
+    #head {height: 62vh;}
+    #sec1 {width: 100%;}
+    #art1sec1 {margin-left: 1vw;}
+    .imgart2 {height: 45vh;}
+  }
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    #imgin {width: 100%; }
+    #head {height: 110vh;}
+    #sec1 {width: 100%;}
+    #art1sec1 {margin-left: 2vw;}
+    .imgart2 {height: 70vh;}
+  }

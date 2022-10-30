@@ -1,0 +1,59 @@
+*{
+    text-align: left;
+    }
+body{
+  background-color: rgb(139, 167, 168);
+}
+#palavras{
+  position: absolute;
+}
+#conten{
+  margin: 100px;
+}
+  h2 {
+    text-align: left;
+    font-size: 50px;
+    color: rgb(50, 63, 119);
+    }
+#perfil{
+  width: 250px;
+  height: 250px;
+  border-radius: 20%;
+  margin-top: 40px;
+  margin-right: 60px;
+}
+img{
+  width: 25px;
+  height: 25px;
+  
+}
+div{
+  display: inline-block;
+}
+p{
+  font-size: 20px;
+  
+}
+  #id1{
+    text-align: center;
+    color: rgb(50, 63, 119);
+    font-size: 80px;
+    display: inline-block;
+   }
+
+  a[href="https://portal.ifba.edu.br"] {
+    color: blue;
+    font-size: 15px;
+    }
+  p + h1{
+    font-size: 30px;
+    color: red;
+    } 
+  #mais {
+    display: none;
+    }    
+@media screen {
+ #qrcode {
+   display: none;
+ }
+}
