@@ -9,7 +9,7 @@ window.onload = function(){
             mapTypeId:google.maps.MapTypeId.ROADMAP
         }
 
-        map = new google.map.Map(document.getElementById('mapa'), map)
+        map = new google.map.Map(document.getElementById('map'), mapProp)
     }
     initialize()
 }
