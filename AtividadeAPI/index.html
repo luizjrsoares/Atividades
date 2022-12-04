@@ -6,20 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Mapa Simples</title>
     <link rel="stylesheet" href="css/style.css">
-
-    <script type="text/javascript">
-        var map;
-            function initMap() {
-                var mapOptions = {
-                    center: new google.maps.LatLng(-11.709680, -40.149950),
-                    zoom: 8,
-                    mapTypeId: google.maps.MapTypeId.ROADMAP
-                    };
-
-                map = new google.maps.Map(document.getElementById('map'), mapOptions)
-            }
-    </script>
     <script  src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCYLSSY7uW5SNjfrwbp9ikzoyP8UhXlLvg&callback=initMap" async defer></script>
+    <script src="script/script.js"></script>
 </head>
 <body>
     <div id="map"></div>
