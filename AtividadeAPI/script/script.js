@@ -27,11 +27,7 @@ function initMap() {
     });
 
     $.getJSON('./script/pins.json', function(response) { 
-        
-        if (response != null || responde != undefined){
             var dados = response;
-            console.log(dados);
-        }
         
         $.each(dados, function(chave, valor) {
             const point = new google.maps.LatLng(valor.x, valor.y)
