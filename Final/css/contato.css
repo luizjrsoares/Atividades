@@ -46,7 +46,6 @@ form input:hover{
 }
 form input{
     outline: none;
-    
     font-size: 15px;
     padding: 15px;
     border: 0;
@@ -74,9 +73,35 @@ form button:hover{
     transition: all 1s;
     background: transparent;
     width: 100%;
+    margin-top: 20px;
 }
 #bt2:hover{
     color: white;
     background-color: black;
     border-radius: 15px;
+}
+p{
+    font-size: 17px;
+}
+#h1{
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+div{
+    position: relative;
+}
+#divbt{
+    position: fixed;
+    left: 50px;
+    top: 50px;
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: rgba(3, 102, 214, 0.3) 0px 0px 0px 1.5px;
+}
+#btimg{
+    padding: 10px;
+}
+#divbt:hover{
+    background-color: lightgray;
 }
