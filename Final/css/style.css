@@ -6,14 +6,11 @@
     font-family: cursive;
 }
 #logo{
-    width: 50px;
-    height: 50px;
+    width: 70px;
+    height: 70px;
 }
 nav{
     font-size: 1.1em;
-}
-#carouselExampleIndicators{
-    margin: 0px 10px 20px 10px;
 }
 header{
     
@@ -33,10 +30,19 @@ header > h1{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     word-spacing: 25px;
-    letter-spacing: 10px;
-    
+    letter-spacing: 10px;    
 }
-
+#fundodiv{
+    background-image: url("../img/foot1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+    margin-left: -10px;
+}
+.carousel-caption{
+    background-color: rgba(0, 0, 0, 0.7);
+}
 
 #flora{
     margin-top: 20px;
@@ -44,10 +50,7 @@ header > h1{
 .h1sec{
     font-family: cursive;
 }
-p{
-    font-family: cursive;
-    text-align: justify;
-}
+
 section > div{
     background-color: white;
     color: black;
@@ -58,6 +61,7 @@ footer{
     background-color: black;
     color: white;
     text-align: center;
+    
 }
 footer > article{
     display: inline-block;

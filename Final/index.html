@@ -14,7 +14,7 @@
     <h1>Atlética Notícias</h1>
   </header>
     <nav class="navbar col-12 m-auto navbar-expand-lg sticky-top navbar-light bg-light">
-        <a class="navbar-brand" href="#"><img src="img/noticia.png" alt="neeon" id="logo"></a>
+        <a class="navbar-brand" href="#"><img src="img/logo.jpg" alt="neeon" id="logo"></a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -43,40 +43,106 @@
           </form>
         </div>
     </nav>
-    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
-          <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img class="w-100 d-block img-fluid" src="img/car2.jpg" alt="Primeiro Slide">
+
+    <div class="row">
+      <div class="col-8">
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="w-100 d-block img-fluid" src="img/car2.jpg" alt="Primeiro Slide">
+                <div class="carousel-caption d-none d-md-block mb-3">
+                  <p>Fazer de um esporte o objeto de seu trabalho diário é o sonho de muita gente.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="w-100 d-block h-auto img-fluid" src="img/car3.jpg" alt="Segundo Slide">
+                <div class="carousel-caption d-none d-md-block mb-3 p-3">
+                  <p>Há muitos profissionais por trás da performance dos atletas de alto nível, aos quais nós assistimos nas grandes competições nacionais e internacionais.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img class="w-100 d-block h-auto img-fluid" src="img/car4.jpg" alt="Terceiro Slide">
+                <div class="carousel-caption d-none d-md-block mb-3">
+                  <p>Abordaremos um pouco sobre quatro profissionais da área do esporte, especializados em diferentes campos da saúde.</p>
+                </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Anterior</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Próximo</span>
+            </a>
+        </div>
+      </div>
+
+      <div class="col-4" id="fundodiv">
+        <div class="accordion mt-4" id="accordionExample">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Fisioterapeuta
+                </button>
+              </h5>
+            </div>
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+              <div class="card-body">
+                 O acompanhamento fisioterápico cumpre o objetivo de prevenir contusões, por meio de avaliações físicas; de impulsionar a performance por meio da prescrição de exercícios para fortalecimento; e de reabilitar músculos, tendões, ligamentos, entre outras partes diretamente relacionadas à habilidade motora do corpo humano.
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="w-100 d-block h-auto img-fluid" src="img/car1.jpg" alt="Segundo Slide">
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Psicólogo
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+              <div class="card-body">
+                Os atletas, assim como todo ser humano, também sofrem com estresse, ansiedade, depressão, entre outros desequilíbrios psíquicos que afetam suas e vidas e, portanto, sua qualidade nos esportes que praticam. O psicólogo esportivo precisa estudar a fundo a categoria na qual deseja atuar para poder indicar exatamente quais fatores psicológicos podem afetar o desempenho físico de uma equipe ou de um indivíduo. A consequência desta abordagem é a elevação do nível competitivo dos atletas.
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="w-100 d-block h-auto img-fluid" src="img/car3.jpg" alt="Terceiro Slide">
+          <div class="card">
+            <div class="card-header" id="headingThree">
+              <h5 class="mb-0">
+                <button class="btn btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                  Nutricionista
+                </button>
+              </h5>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+              <div class="card-body">
+                Quando falamos em performance e conquista de resultados no esporte, não podemos excluir o nutricionista da equação. O trabalho do nutricionista esportivo complementa o de todos os outros profissionais citados.
+              </div>
+            </div>
           </div>
-          <div class="carousel-item">
-            <img class="w-100 d-block h-auto img-fluid" src="img/car4.jpg" alt="Quarto Slide">
+          <div class="card">
+            <div class="card-header" id="headingFour">
+              <h5 class="mb-0">
+                <button class="btn btn-dark collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                  Educador Físico
+                </button>
+              </h5>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+              <div class="card-body">
+                O trabalho do educador físico junto aos atletas é o de orientá-los em relação à preparação física ou no que tange às técnicas do esporte em questão. Todo grande time seja de basquete, futebol, ou qualquer outro esporte de alto nível, emprega um ou mais educadores físicos para que possa atingir sua máxima performance e almejar resultados competitivos.
+              </div>
+            </div>
           </div>
         </div>
-        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Anterior</span>
-        </a>
-        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Próximo</span>
-        </a>
+      </div>
     </div>
 
     <section style="margin-top: 50px;">
       <div class="container">
-        <div class="row justify-content-start">
+        <div class="row justify-content-end">
           <div class="col-4">
             <iframe width="400" height="225" src="https://www.youtube.com/embed/yjvv4nmBHdM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
           </div>
