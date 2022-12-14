@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
 *{
     margin: 0;
     padding: 0;
@@ -13,6 +15,29 @@ nav{
 #carouselExampleIndicators{
     margin: 0px 10px 20px 10px;
 }
+header{
+    
+}
+header > h1{
+    font-family: 'Holtwood One SC', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 5.5em;
+    font-weight: bold;
+    background-image: url("../img/foot1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-spacing: 25px;
+    letter-spacing: 10px;
+    
+}
+
+
 #flora{
     margin-top: 20px;
 }
