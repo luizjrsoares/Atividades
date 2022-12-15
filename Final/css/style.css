@@ -12,9 +12,6 @@
 nav{
     font-size: 1.1em;
 }
-header{
-    
-}
 header > h1{
     font-family: 'Holtwood One SC', serif;
     display: flex;
@@ -43,20 +40,18 @@ header > h1{
 .carousel-caption{
     background-color: rgba(0, 0, 0, 0.7);
 }
+.card-img{
+    width: 300px;
+    height: 225px;
+}
+section{
+    background-image: url("../img/foot1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center right;
+}
 
-#flora{
-    margin-top: 20px;
-}
-.h1sec{
-    font-family: cursive;
-}
-
-section > div{
-    background-color: white;
-    color: black;
-    text-align: center;
-    display: inline-block;
-}
 footer{
     background-color: black;
     color: white;
