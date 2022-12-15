@@ -15,7 +15,7 @@ nav{
 main{
     
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: cover;
     background-attachment: fixed;
     background-position: center;
     padding: 30px;
@@ -25,6 +25,12 @@ main{
 }
 #mainfisio{
     background-image: url("../img/fisio.jpg");
+}
+#mained{
+    background-image: url("../img/ed.jpg");
+}
+#mainpsico{
+    background-image: url("../img/psico.jpg");
 }
 section{
     background-color: white;
