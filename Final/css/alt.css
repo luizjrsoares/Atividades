@@ -12,7 +12,86 @@
 nav{
     font-size: 1em;
 }
-
+main{
+    
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+    padding: 30px;
+}
+#mainnutri{
+    background-image: url("../img/nutri.png");
+}
+#mainfisio{
+    background-image: url("../img/fisio.jpg");
+}
+section{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+section h1{
+    font-family: 'Holtwood One SC', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 2.5em;
+    font-weight: bold;
+    background-image: url("../img/foot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-spacing: 10px;
+    letter-spacing: 5px; 
+}
+section h2{
+    font-family: 'Holtwood One SC', serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 1.4em;
+    font-weight: bold;
+    background-image: url("../img/foot.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+}
+section p{
+    text-align: justify;
+    padding: 30px;
+    font-size: 1em;
+}
+#cont{
+    background-color: white;
+    min-width: 300px;
+    max-width: 1000px;
+    margin: auto;
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.466);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+a{
+    color: white;
+    text-decoration: underline;
+}
+a:hover{
+    color: brown;
+}
 footer{
     background-color: black;
     color: white;
