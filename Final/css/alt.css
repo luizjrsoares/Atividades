@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Holtwood+One+SC&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+#logo{
+    width: 70px;
+    height: 70px;
+}
+nav{
+    font-size: 1em;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    
+}
+footer > article{
+    display: inline-block;
+}
